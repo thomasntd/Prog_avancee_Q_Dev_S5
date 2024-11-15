@@ -1,3 +1,5 @@
+package src.TP1;
+
 import java.awt.*;
 import javax.swing.*;
 import java.util.Random;

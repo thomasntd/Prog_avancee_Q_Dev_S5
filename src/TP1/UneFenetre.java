@@ -1,8 +1,7 @@
+package src.TP1;
+
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.*;
-import javax.swing.plaf.basic.BasicButtonListener;
 
 class UneFenetre extends JFrame {
     private final int LARG=1200, HAUT=800;
