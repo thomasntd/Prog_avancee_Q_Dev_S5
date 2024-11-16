@@ -9,14 +9,14 @@ public class Main {
         Producer producteur4 = new Producer(bal, "Producer4");
         Consumer consommateur = new Consumer(bal);
 
-        new Thread(consommateur).start();
-        new Thread(consommateur).start();
-        new Thread(consommateur).start();
-        new Thread(consommateur).start();
-
         new Thread(producteur1).start();
         new Thread(producteur2).start();
         new Thread(producteur3).start();
         new Thread(producteur4).start();
+
+        new Thread(consommateur).start();
+        new Thread(consommateur).start();
+        new Thread(consommateur).start();
+        new Thread(consommateur).start();
     }
 }

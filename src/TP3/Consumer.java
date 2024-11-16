@@ -11,7 +11,7 @@ public class Consumer implements Runnable{
     public void run() {
         try {
             lettreRecue = bal.retirer();
-            // System.out.println("Lettre reçue : " + lettreRecue);
+            System.out.println("Lettre reçue : " + lettreRecue);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

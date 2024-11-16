@@ -12,7 +12,7 @@ public class Producer implements Runnable {
     public void run(){
         try {
             bal.deposer(lettreAEnvoyer);
-            // System.out.println("Lettre envoyée : " + lettreAEnvoyer);
+            System.out.println("Lettre envoyée : " + lettreAEnvoyer);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
